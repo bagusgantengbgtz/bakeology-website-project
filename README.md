@@ -1,34 +1,53 @@
-# 🍰 Bakeology - Full Stack Bakery Website
+<div align="center">
 
-Bakeology is a full-stack bakery web application that allows users to browse bakery products, add items to their cart, place orders, and complete payments through Stripe. This project is built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
+# 🍰 Bakeology
 
-✨ Features
-### 👤 Customer
+### Full Stack Bakery E-Commerce Website
+
+A modern bakery e-commerce application built with the MERN Stack featuring secure authentication, online ordering, and Stripe payment integration.
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js)
+![Express](https://img.shields.io/badge/Express-black?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe)
+
+</div>
+
+---
+
+## 📖 About
+
+Bakeology is a full-stack bakery e-commerce website developed using the **MERN Stack**. The application allows customers to browse bakery products, manage their shopping cart, securely place orders through Stripe, and enables administrators to manage products and customer orders from a dedicated dashboard.
+
+---
+
+## ✨ Features
+
+### Customer
+
 - Browse bakery products
-- View product categories
-- Search products
-- Add products to cart
-- Remove products from cart
-- User Login & Registration
-- Place orders
-- Online payment using Stripe
-- View order history
+- Search and filter products
+- Shopping cart
+- User authentication
+- Secure Stripe payment
+- Order tracking
 
-### 🔧 Admin
-- Admin Dashboard
-- Add new products
-- Upload product images
-- Manage food menu
-- View customer orders
-- Update order status
+### Admin
 
+- Product management
+- Image upload
+- Order management
+- Delivery status updates
 
-## 🛠️ Technologies Used
+---
+
+## 🛠 Tech Stack
+
 ### Frontend
 - React.js
-- React Router DOM
+- React Router
 - Axios
-- CSS
 - Vite
 
 ### Backend
@@ -39,164 +58,99 @@ Bakeology is a full-stack bakery web application that allows users to browse bak
 - JWT Authentication
 - Multer
 - Stripe API
-- dotenv
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 bakeology-website-project
-│
-├── admin/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── uploads/
-│   └── server.js
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
+├── frontend
+├── backend
+├── admin
 └── README.md
 ```
 
 ---
 
-## 🚀 Installation
+## 🚀 Getting Started
 
-### 1. Clone Repository
+Clone the repository
 
 ```bash
 git clone https://github.com/bagusgantengbgtz/bakeology-website-project.git
 ```
 
----
-
-### 2. Install Dependencies
-
-#### Frontend
+Install dependencies
 
 ```bash
 cd frontend
 npm install
+
+cd ../backend
+npm install
+
+cd ../admin
+npm install
 ```
 
-#### Backend
+Run the project
 
 ```bash
+# Backend
 cd backend
-npm install
-```
+npm run server
 
-#### Admin
+# Frontend
+cd frontend
+npm run dev
 
-```bash
+# Admin
 cd admin
-npm install
+npm run dev
 ```
 
 ---
 
-## ⚙️ Environment Variables
+## 🔐 Environment Variables
 
-Create a `.env` file inside the **backend** folder.
-
-Example:
+Create a `.env` file inside the backend folder.
 
 ```env
-MONGODB_URI=your_mongodb_connection
+MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 STRIPE_SECRET_KEY=your_stripe_secret
 ```
 
-> ⚠️ Never upload your `.env` file to GitHub.
+> **Note:** Never commit your `.env` file to GitHub.
 
 ---
 
-## ▶️ Running the Project
+## 🌐 Live Demo
 
-### Backend
-
-```bash
-cd backend
-npm run server
-```
-
-or
-
-```bash
-npm start
-```
-
----
-
-### Frontend
-
-```bash
-cd frontend
-npm run dev
-```
-
----
-
-### Admin Panel
-
-```bash
-cd admin
-npm run dev
-```
-
----
-
-## 📸 Screenshots
-
-You can add screenshots here.
-
-Example:
-
-```
-screenshots/
-    home.png
-    menu.png
-    cart.png
-    checkout.png
-    admin-dashboard.png
-```
+Coming Soon...
 
 ---
 
 ## 📚 Learning Outcomes
 
-This project helped me learn:
+Through this project, I gained hands-on experience with:
 
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-- REST API Development
+- Full Stack Web Development
+- RESTful API Development
+- MongoDB & Mongoose
 - JWT Authentication
 - Stripe Payment Integration
-- Image Upload with Multer
-- Full Stack Application Development
-- Git & GitHub Version Control
+- Git & GitHub Workflow
 
 ---
 
-GitHub:
-https://github.com/bagusgantengbgtz
+## 👨‍💻 Author
+
+**Bagus**
+
+GitHub: https://github.com/bagusgantengbgtz
 
 ---
 
-## ⭐ If you like this project
-
-Please consider giving this repository a ⭐ on GitHub!
+⭐ Feel free to fork this repository or leave a star if you found it helpful.
